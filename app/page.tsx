@@ -106,7 +106,7 @@ export default function Home() {
               Tailwind makes it incredibly easy to build responsive interfaces using prefixes like <code className="bg-black/5 dark:bg-white/10 px-1 py-0.5 rounded text-primary">md:</code>, <code className="bg-black/5 dark:bg-white/10 px-1 py-0.5 rounded text-primary">lg:</code>, and <code className="bg-black/5 dark:bg-white/10 px-1 py-0.5 rounded text-primary">xl:</code>.
             </p>
             
-            <div className="p-8 rounded-xl bg-gradient-to-r from-yellow-500 via-amber-500 to-yellow-600 text-white text-center transition-all duration-500 shadow-xl">
+            <div className="p-8 rounded-xl bg-gradient-to-r from-primary via-accent to-primary text-white text-center transition-all duration-500 shadow-xl">
               <p className="font-bold text-2xl mb-2">Resize your browser!</p>
               <p className="block md:hidden">Current View: <span className="font-mono bg-black/20 px-2 rounded">Mobile</span></p>
               <p className="hidden md:block lg:hidden">Current View: <span className="font-mono bg-black/20 px-2 rounded">Tablet (md)</span></p>
