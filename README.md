@@ -34,3 +34,14 @@ Honestly, just throw it on **Vercel**. It's zero config and works perfectly with
 ## GitHub Repository
 
 Check out the code here: [https://github.com/Lesz-Xi/Tutorial-Blog-Page](https://github.com/Lesz-Xi/Tutorial-Blog-Page)
+
+## Reflection
+
+### What I Learned
+Honestly, getting used to **Tailwind CSS** was the biggest thing. It felt weird at first writing styles right inside the HTML (well, JSX), but once I got the hang of it, it was actually way faster than flipping between files. I also learned how **Next.js** handles pages and how easy it is to make everything responsive with just a few `md:` or `lg:` prefixes.
+
+### Challenges Encountered
+The biggest headache was definitely **Dark Mode colors**. I set up this nice Champagne theme, but when I switched to dark mode, everything turned into this intense yellow that looked terrible. I had to figure out how CSS variables worked in `globals.css` to tweak the specific hex codes for dark mode so it still looked "premium" and not like a caution tape.
+
+### What I Enjoyed
+I really liked customizing the design. Making that **gradient banner** and seeing it work on my phone (mobile view) vs my laptop was super satisfying. Also, deploying to **Vercel** was kind of magic—I just pushed my code and boom, it was live on the internet.
