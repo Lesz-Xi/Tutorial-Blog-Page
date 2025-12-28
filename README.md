@@ -30,3 +30,7 @@ Honestly, just throw it on **Vercel**. It's zero config and works perfectly with
 ***
 
 *Happy Coding!* 🚀
+
+## GitHub Repository
+
+Check out the code here: [https://github.com/Lesz-Xi/Tutorial-Blog-Page](https://github.com/Lesz-Xi/Tutorial-Blog-Page)
