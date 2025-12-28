@@ -1,0 +1,53 @@
+/* This line tells Tailwind to load all its utility classes */
+@import "tailwindcss";
+
+/* 
+  :root contains variables for LIGHT mode.
+  We use these names (like --background) so we can easily swap colors for dark mode.
+*/
+:root {
+  /* Champagne & Gold Theme */
+  --background: #faf7f2;
+  --foreground: #2d2a26;
+  --primary: #c5a065;
+  --accent: #d4b886;
+  --secondary: #e8e4dc;
+}
+
+/* 
+  @theme inline tells Tailwind to look at our CSS variables.
+  This allows us to write class="bg-primary" instead of a specific hex code.
+*/
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --color-secondary: var(--secondary);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* 
+  This section triggers automatically when the user's computer is set to DARK mode.
+  Notice how we redefine the SAME variable names with different (darker) colors.
+*/
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Champagne & Gold Theme (Dark) */
+    --background: #1c1917; /* Warm Dark Stone */
+    --foreground: #f0ede6; /* Soft Off-White */
+    --primary: #d4af37; /* Metallic Gold */
+    --accent: #a38f68; /* Antique Bronze */
+    --secondary: #2a2723; /* Dark Warm Grey */
+  }
+}
+
+/* Basic resets for the body elements */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
